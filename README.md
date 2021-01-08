@@ -4,4 +4,4 @@
 
 #Here is their Github page: <a href="https://github.com/OxCGRT/covid-policy-tracker">OxCGRT/covid-policy-tracker</a>
 
-#Here is a quick link for <a href="https://github.com/OxCGRT/covid-policy-tracker/blob/master/documentation/index_methodology.md">how the indexes are measured and calculated</a> 
+#Here is a quick link for <a href="https://github.com/OxCGRT/covid-policy-tracker/blob/master/documentation/codebook.md">the index codebook</a> and <a href="https://github.com/OxCGRT/covid-policy-tracker/blob/master/documentation/index_methodology.md">how the indexes are calculated</a> 
