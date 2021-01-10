@@ -63,3 +63,12 @@ header nav{
 }
 
 /* body */
+#bio {
+    float: left;
+    margin-right:25px;
+}
+
+.about{
+    padding: 25px;
+    margin: 25px 50px; 
+}
