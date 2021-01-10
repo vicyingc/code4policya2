@@ -31,3 +31,33 @@ header ul{
     margin: 0;
     padding: 0;
 }
+
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header a:hover{
+    color: #116466;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 5px 15px 0px 15px;
+}
+
+header #brand{
+    float:left;
+}
+
+header #brand h1{
+    margin:0;
+}
+
+header nav{
+    float: right;
+    margin-top: 5px;
+}
