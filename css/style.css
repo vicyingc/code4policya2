@@ -138,6 +138,11 @@ header nav{
     font-size: 30px;
 }
 
+/*map*/
+#map_chart{
+    position: absolute;
+}
+
 /*boxes*/
 #boxes{
     margin-top: 20px;
