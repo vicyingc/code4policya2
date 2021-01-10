@@ -1,4 +1,6 @@
-// to do get the map up and running
+// Story 3: to-do get the map up and running - Nick and Victoria
+// 1) potentially transform csv into json
+// 2) troubleshooting
 
 d3.csv("OxCGRT_latest_onerowpercountry_01092021_0100.csv", function(err, data) {
 

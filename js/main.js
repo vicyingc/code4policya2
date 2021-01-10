@@ -18,11 +18,9 @@ d3.csv("OxCGRT_latest_onerowpercountry_01092021_0100.csv", (data) => {
     // Analyze the dataset in the web console, it looks clean and beautiful
     console.log(travelData);
 
-    // to-do restrict searchbar options to our dataset - (Victoria)
-    // 1) create a dropdown box that changes with input characters
 
 
-    // to-do take input from the searchbar and output 3 restriction information (Nikhil & Pat)
+    // Story 4: take input from the searchbar and output 3 restriction information (Nikhil & Pat)
     // note that output is stored as an array as countryOutput
     // we need to: 1) distill CountryName, C5_Close public transport,
     // C8_International travel controls (ordinal scale: 2), H6_Facial Coverings,
@@ -31,7 +29,7 @@ d3.csv("OxCGRT_latest_onerowpercountry_01092021_0100.csv", (data) => {
     // 3) print out the selected information in div with a suitable format
 
 
-    // to-do articulate restriction levels based on the conditions (hint: google if, then function in js)
+    // Story 5: to-do articulate restriction levels based on the conditions (hint: google if, then function in js)
     // 1) use if then function to translate the ordinal scale into texts
     // 2) print them out in the three info boxes
 
