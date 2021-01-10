@@ -1,0 +1,33 @@
+/* CSS file for the About Us page*/
+
+body{
+    font: 15px/1.5 Palatino, Times, Arial, Helvetica, sans-serif;
+    padding : 0;
+    margin : 0;
+    background-color: #7C1527;
+}
+
+/* global */
+.contain{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contain-fluid {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+/* header */
+header{
+    background: #2C3531;
+    color: #ffffff;
+    padding-top: 15px;
+    min-height: 60px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
