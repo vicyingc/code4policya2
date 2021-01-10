@@ -68,7 +68,15 @@ header nav{
     margin-right:25px;
 }
 
-.about{
+.about{    
     padding: 25px;
     margin: 25px 50px; 
+}
+
+h3 {
+    color: #4686F2;
+}
+
+p {
+    color:#9FC1DB;
 }
