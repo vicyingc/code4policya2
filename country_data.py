@@ -1,9 +1,11 @@
+#!/usr/bin/env python3
+
 import csv
 import sys
 from datetime import datetime
 
 # define our country lookup variable - hardcoding for now but will be the output of what the user selects
-country_lookup = 'Aruba'
+country_lookup = 'United States'
 
 # read data from STDIN and split on each newline
 data = sys.stdin.read().splitlines()
@@ -13,7 +15,7 @@ reader = csv.DictReader(data)
 writer = csv.DictWriter(sys.stdout, fieldnames=reader.fieldnames)
 
 # write the header (first line of the csv) - remove hash if we want to add the headers back in
-#writer.writeheader()
+writer.writeheader()
 
 #loop through reader, add to this array "rows" (as we need to traverse reader more than once)
 rows = []
@@ -27,6 +29,10 @@ most_recent_date = datetime.strptime("2020-01-01", "%Y-%m-%d")
 for row in rows:
     row_date_string = row['Date'] #date format is 20200101
     row_date = datetime.strptime(row_date_string, "%Y%m%d")
+    #Potentially define a new variable that takes in the value from the pertinent column when it is not blank
+    #close_public_transport = 
+
+
     if row_date > most_recent_date:  #if it is greater than 1/1/2020, loops through and updates
         most_recent_date = row_date
 
@@ -35,6 +41,6 @@ for row in rows:
     # filter rows
     row_date_string = row['Date'] #date format is 20200101
     row_date = datetime.strptime(row_date_string, "%Y%m%d")
-    if row['CountryName'] == country_lookup and row_date == most_recent_date:
+    if row['CountryName'] == country_lookup and row_date == most_recent_date and row['Jurisdiction'] == 'NAT_TOTAL':
         # write rows that match above filter
         writer.writerow(row)
