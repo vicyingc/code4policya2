@@ -1,4 +1,7 @@
 // make what will later be visualization instances global variables
+// alert(sammy.first_name);
+var sammy
+var first_name
 
 // define global dataset
 let travelData;
@@ -110,5 +113,5 @@ function ShowInput(d){
     }  else if (facialCoveringsInfo == ""){
         document.getElementById("facial-coverings").innerHTML =
             "No data available"
-    }
+    }}
     
