@@ -37,24 +37,53 @@
 <!-- search bar victoria -->
 <div class="container">
     <div class="search-box">
-        <input type="text" name = "searchbar" class = "search-txt"  placeholder="Search country name">
+        <input type="text" name = "searchbar" class = "search-txt"  placeholder="Search country name" id="country">
         <a class="search-btn" onclick="ShowInput()"> <!-- click to show information-->
             <i class="far fa-search"></i>
         </a>
     </div>
 </div>
 
-<!-- map chart Nick + victoria-->
+
 <div class="row justify-content-center"  style="height: 80vh">
-    <div class="align-self-center" id="map_chart" style="height: 100%; width: 100%"></div>
-    <img src="css/world_map.png" alt="this should be the world map" width="1000" height="600">
+    <!-- map chart Nick + victoria-->
+    <div class="float-child" id="map_chart" >
+        <img src="css/world_map.png" alt="this should be the world map">
+    </div>
+
+    <!-- ordinal output from data + explanations of the information Yousif -->
+    <div class = "float-child">
+        <div id="info-box">
+            <table id = "key-information">
+                <h2>Country Travel Information</h2>
+                <h3 id="heading"> </h3>
+                <tr>
+                    <td>Date</td>
+                    <th id = "row1"></th>
+                </tr>
+                <tr>
+                    <td>Quarantine requirement</td>
+                    <th id = "row2"></th>
+                </tr>
+                <tr>
+                    <td>Public transportation</td>
+                    <th id = "row3"></th>
+                </tr>
+                <tr>
+                    <td>Mask wearing</td>
+                    <th id = "row4"></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
 </div>
 
-<!-- ordinal output from data Nikhil + Pat  -->
+<!-- Nikhil + Pat  -->
 <div class="number-output">
 </div>
 
-<!-- explanations of the information Yousif -->
+
 <section id="boxes">
     <div class = "container">
         <div class = "box">
@@ -88,4 +117,5 @@
 
 </body>
 </html>
+
 

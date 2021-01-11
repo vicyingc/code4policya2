@@ -184,3 +184,19 @@ footer{
     text-align: center;
 }
 
+/*float-child add in format for the map and info boxes*/
+.float-child {
+    padding: 20px;
+    border: 2px #2C3531;
+}
+
+#map-chart{
+    width: 70%;
+    float: left;
+}
+
+#info-box{
+    width: 30%;
+    float: right;
+}
+
