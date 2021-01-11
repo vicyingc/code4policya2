@@ -73,17 +73,17 @@ header nav{
 }
 
 h3 {
-    color: #4686F2;
+    color: #ffffff;
 }
 
 p {
-    color:#9FC1DB;
+    color: #ffffff;
 }
 
 /*footer*/
 footer{
     padding:20px;
-    margin-top: 20px;
+    margin-top: 80px;
     color:#ffffff;
     background-color: #2C3531;
     text-align: center;

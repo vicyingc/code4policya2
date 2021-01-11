@@ -11,6 +11,7 @@ body{
     width: 80%;
     margin: auto;
     overflow: hidden;
+    color: #ffffff;
 }
 
 .container-fluid {
@@ -75,7 +76,7 @@ header nav{
 }
 
 #showcase h1{
-    margin-top: 100px;
+    margin-top: 60px;
     font-size: 54px;
     margin-bottom: 10px;
 }
@@ -139,11 +140,13 @@ header nav{
 /*map*/
 #map_chart{
     position: absolute;
+    color: #ffffff;
 }
 
 /*boxes*/
 #boxes{
     margin-top: 20px;
+    color: #ffffff;
 }
 
 #boxes.box{
@@ -151,6 +154,7 @@ header nav{
     text-align: center;
     width: 30%;
     padding: 10px;
+    color: #ffffff;
 }
 
 #boxes.box img{
@@ -162,14 +166,17 @@ header nav{
     float: left;
     width: 350px;
     height: 200px;
+    color: #ffffff;
 }
 
 .box h3{
     text-align: center;
+    color: #ffffff;
 }
 
 .box p{
     text-align: center;
+    color: #ffffff;
 }
 
 /*footer*/
@@ -185,16 +192,19 @@ footer{
 .float-child {
     padding: 20px;
     border: 2px #2C3531;
+    color: #ffffff;
 }
 
 #map-chart{
     width: 200%;
     float: left;
+    color: #ffffff;
 }
 
 #info-box{
     width: 20%;
     float: right;
+    color: #ffffff;
 }
 
 

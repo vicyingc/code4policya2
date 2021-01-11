@@ -12,6 +12,7 @@ body{
     width: 80%;
     margin: auto;
     overflow: hidden;
+    color: #ffffff;
 }
 
 .contain-fluid {
@@ -68,16 +69,17 @@ header nav{
 }
 
 .about{    
-    padding: 30px;
+    padding: 10px;
     margin: 25px 50px; 
+    color: #ffffff;
 }
 
 h3 {
-    color: #4686F2;
+    color: #ffffff;
 }
 
 p {
-    color:#9FC1DB;
+    color: #ffffff;
 }
 
 /*footer*/
