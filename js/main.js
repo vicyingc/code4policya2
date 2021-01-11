@@ -72,9 +72,43 @@ function ShowInput(d){
     } else if (quarantineInfo == 4){
         document.getElementById("quarantine").innerHTML =
             "Oh my, border is closed! I don't even know how you got in! Border control!"
+    } else if (quarantineInfo == ""){
+        document.getElementById("quarantine").innerHTML =
+            "No data"
     }
 
     // the other two columns go here
+    if (publicTransportInfo == 0){
+        document.getElementById("public-transportation").innerHTML =
+            "Public transportation functions as normal"
+    } else if (publicTransportInfo == 1){
+        document.getElementById("public-transportation").innerHTML =
+            "The volume, route, and means of transportation may be limited or closed. Try on foot?"
+    } else if (publicTransportInfo == 2){
+        document.getElementById("public-transportation").innerHTML =
+            "Ahh, public transportation is prohibited or closed to some citizens. Please google 'car renting'!"
+    } else if (publicTransportInfo == ""){
+        document.getElementById("public-transportation").innerHTML =
+            "No data available"
+    }
 
-
-}
+    if (facialCoveringsInfo  == 0){
+        document.getElementById("facial-coverings").innerHTML =
+            "You don't have to wear a mask"
+    } else if (facialCoveringsInfo  == 1){
+        document.getElementById("facial-coverings").innerHTML =
+            "Mask wearing is recommended"
+    } else if (facialCoveringsInfo  == 2){
+        document.getElementById("facial-coverings").innerHTML =
+            "You need to wear a mask in most public places and around people. Don't forget to bring one!"
+    } else if (facialCoveringsInfo == 3){
+        document.getElementById("facial-coverings").innerHTML =
+            "You need to wear a mask outside your home when there are other people around!"
+    }  else if (facialCoveringsInfo == 4){
+        document.getElementById("facial-coverings").innerHTML =
+            "You have to wear a mask outside your home no matter what!"
+    }  else if (facialCoveringsInfo == ""){
+        document.getElementById("facial-coverings").innerHTML =
+            "No data available"
+    }
+    
