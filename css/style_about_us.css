@@ -69,7 +69,7 @@ header nav{
 }
 
 .about{    
-    padding: 25px;
+    padding: 30px;
     margin: 25px 50px; 
 }
 
@@ -79,4 +79,19 @@ h3 {
 
 p {
     color:#9FC1DB;
+}
+
+/*footer*/
+footer{
+    padding:20px;
+    margin-top: 20px;
+    color:#ffffff;
+    background-color: #2C3531;
+    text-align: center;
+}
+
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
 }
