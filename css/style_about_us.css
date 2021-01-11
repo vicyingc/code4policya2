@@ -1,0 +1,82 @@
+/* CSS file for the About Us page*/
+
+body{
+    font: 15px/1.5 Palatino, Times, Arial, Helvetica, sans-serif;
+    padding : 0;
+    margin : 0;
+    background-color: #7C1527;
+}
+
+/* global */
+.contain{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contain-fluid {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+/* header */
+header{
+    background: #2C3531;
+    color: #ffffff;
+    padding-top: 15px;
+    min-height: 60px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header a:hover{
+    color: #116466;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 5px 15px 0px 15px;
+}
+
+header #brand{
+    float:left;
+}
+
+header #brand h1{
+    margin:0;
+}
+
+header nav{
+    float: right;
+    margin-top: 5px;
+}
+
+/* body */
+#bio {
+    float: left;
+    margin-right:25px;
+}
+
+.about{    
+    padding: 25px;
+    margin: 25px 50px; 
+}
+
+h3 {
+    color: #4686F2;
+}
+
+p {
+    color:#9FC1DB;
+}
