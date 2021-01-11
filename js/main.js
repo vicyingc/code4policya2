@@ -20,28 +20,11 @@ d3.csv("OxCGRT_latest_onerowpercountry_01092021_0100.csv", (data) => {
     // Analyze the dataset in the web console, it looks clean and beautiful
     console.log(travelData);
 
-    // Story 4: take input from the searchbar and output 3 restriction information (Nikhil & Pat)
-    // note that output is stored as an object as countryOutput
-
-    // store the column names as an array
-    Object.keys(countryOutput);
-    // test it out in the console
-    console.log(Object.keys(countryOutput));
-
-    //
-
-    // 3) print out the selected information in div with a suitable format
-
-
-
-    // Story 5: to-do articulate restriction levels based on the conditions (hint: google if, then function in js)
-    // 1) use if then function to translate the ordinal scale into texts
-    // 2) print them out in the three info boxes
-
 })
 
 //show filtered row data in the console based on search bar input
 function ShowInput(d){
+
     console.log(document.getElementById("country").value);
     countryInput = document.getElementById("country").value;
 
@@ -51,21 +34,49 @@ function ShowInput(d){
     })
     //show them in the console
     console.log(countryOutput);
-
     console.log(countryOutput[0]);
+
     // tease out relevant information and put them in the div
     document.getElementById("heading").innerHTML =
         countryOutput[0].CountryName
+
     document.getElementById("row1").innerHTML =
         countryOutput[0].Date
-    document.getElementById("row2").innerHTML =
+
+    // defined three variables that contain the ordinal scale information of each column
+    var quarantineInfo = document.getElementById("row2").innerHTML =
         countryOutput[0].C8_quarantine
-    document.getElementById("row3").innerHTML =
+
+    // similar across other columns
+    var publicTransportInfo = document.getElementById("row3").innerHTML =
         countryOutput[0].C5_publicTransport
-    document.getElementById("row4").innerHTML =
+
+    var facialCoveringsInfo = document.getElementById("row4").innerHTML =
         countryOutput[0].H6_FacialCoverings
+
+    // Story 5: to-do articulate restriction levels based on the conditions (hint: google if, then function in js)
+    // add if then statement to translate quarantineInfo, publicTransportInfo, and facialCoveringsInfo into the three boxes,
+    // Note: remember to change the elementId into public-transportation, facial-coverings, respectively.
+    if (quarantineInfo == 2){
+        document.getElementById("quarantine").innerHTML =
+            "Yes, you may need to quarantine, please check specific instructions for your country of origin"
+    } else if (quarantineInfo == 0){
+        document.getElementById("quarantine").innerHTML =
+            "There is no quarantine requirement, lucky you!"
+    } else if (quarantineInfo == 1){
+        document.getElementById("quarantine").innerHTML =
+            "This country screens its travellers, do you have required documents with you?"
+    } else if (quarantineInfo == 3){
+        document.getElementById("quarantine").innerHTML =
+            "You are lucky to have arrived in this country. You probably need to quarantine. "
+    } else if (quarantineInfo == 4){
+        document.getElementById("quarantine").innerHTML =
+            "Oh my, border is closed! I don't even know how you got in! Border control!"
+    }
+
+    // the other two columns go here
+
+
 }
-
-
 
 
