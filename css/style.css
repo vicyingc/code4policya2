@@ -3,14 +3,22 @@ body{
     font: 15px/1.5 Palatino, Times, Arial, Helvetica, sans-serif;
     padding : 0;
     margin : 0;
-    background-color: #116466;
+    background-color: #323D4D;
 }
 
 /* global */
 .container{
-    width: 80%;
+    width: 50%;
     margin: auto;
     overflow: hidden;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container-1{
+    width: 90%;
+    padding: 20px 20px 20px 20px;
 }
 
 .container-fluid {
@@ -27,7 +35,7 @@ header ul{
     height: 38px;
     background: #D1E8E2;
     border: 0;
-    padding: 0 20px 0 20px
+    padding: 20px 20px 20px 20px;
     color: #ffffff
 }
 
@@ -42,8 +50,6 @@ header{
 header a{
     color: #ffffff;
     text-decoration: none;
-    text-transform: capitalize;
-    font-size: 16px;
 }
 
 header a:hover{
@@ -77,7 +83,7 @@ header nav{
 }
 
 #showcase h1{
-    margin-top: 100px;
+    margin-top: 60px;
     font-size: 54px;
     margin-bottom: 10px;
 }
@@ -91,7 +97,7 @@ header nav{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 70%);
+    transform: translate(-50%, 400%);
     background: #2f3640;
     height: 40px;
     border-radius : 40px;
@@ -136,42 +142,44 @@ header nav{
 
 .search-btn > i {
     font-size: 30px;
+    padding-top: 70px;
 }
 
 /*map*/
 #map_chart{
     position: absolute;
+    color: #ffffff;
 }
 
 /*boxes*/
 #boxes{
     margin-top: 20px;
+    color: #ffffff;
 }
 
 #boxes.box{
     float: left;
     text-align: center;
-    width: 30%;
+    width: 25%;
     padding: 10px;
-}
-
-#boxes.box img{
-    width: 90px;
-    background: transparent;
+    color: #ffffff;
 }
 
 .box{
     float: left;
-    width: 350px;
+    width: 300px;
     height: 200px;
+    color: #ffffff;
 }
 
 .box h3{
     text-align: center;
+    color: #ffffff;
 }
 
 .box p{
     text-align: center;
+    color: #ffffff;
 }
 
 /*footer*/
@@ -179,7 +187,7 @@ footer{
     padding:20px;
     margin-top: 20px;
     color:#ffffff;
-    background-color: #116466;
+    background-color: #000000;
     text-align: center;
 }
 
@@ -187,16 +195,16 @@ footer{
 .float-child {
     padding: 20px;
     border: 2px #2C3531;
+    color: #ffffff;
 }
 
 #map-chart{
-    width: 200%;
-    float: left;
+    width: 300%;
+    float: middle;
+    color: #ffffff;
 }
 
 #info-box{
     width: 20%;
-    float: right;
+    color: #ffffff;
 }
-
-
