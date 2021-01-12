@@ -114,7 +114,3 @@ function ShowInput(d){
         document.getElementById("facial-coverings").innerHTML =
             "No data available"
     }}
-<<<<<<< HEAD
-    
-=======
->>>>>>> 0ef9c1621f06b8f449bfbceb445ab3349f200514
