@@ -1,4 +1,4 @@
-// make what will later be visualization instances global variables
+ make what will later be visualization instances global variables
 // alert(sammy.first_name);
 var sammy
 var first_name
@@ -114,7 +114,4 @@ function ShowInput(d){
         document.getElementById("facial-coverings").innerHTML =
             "No data available"
     }}
-<<<<<<< HEAD
-    
-=======
->>>>>>> 0ef9c1621f06b8f449bfbceb445ab3349f200514
+
