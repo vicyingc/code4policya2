@@ -12,6 +12,13 @@ body{
     margin: auto;
     overflow: hidden;
     color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container-1{
+    width: 90%;
+    padding: 20px 20px 20px 20px;
 }
 
 .container-fluid {
@@ -28,7 +35,7 @@ header ul{
     height: 38px;
     background: #D1E8E2;
     border: 0;
-    padding: 0 20px 0 20px
+    padding: 20px 20px 20px 20px;
     color: #ffffff
 }
 
@@ -90,7 +97,7 @@ header nav{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 70%);
+    transform: translate(-50%, 400%);
     background: #2f3640;
     height: 40px;
     border-radius : 40px;
@@ -135,6 +142,7 @@ header nav{
 
 .search-btn > i {
     font-size: 30px;
+    padding-top: 70px;
 }
 
 /*map*/
@@ -152,19 +160,14 @@ header nav{
 #boxes.box{
     float: left;
     text-align: center;
-    width: 30%;
+    width: 25%;
     padding: 10px;
     color: #ffffff;
 }
 
-#boxes.box img{
-    width: 90px;
-    background: transparent;
-}
-
 .box{
     float: left;
-    width: 350px;
+    width: 300px;
     height: 200px;
     color: #ffffff;
 }
@@ -196,16 +199,12 @@ footer{
 }
 
 #map-chart{
-    width: 200%;
-    float: left;
+    width: 300%;
+    float: middle;
     color: #ffffff;
 }
 
 #info-box{
     width: 20%;
-    float: right;
     color: #ffffff;
 }
-
-
-

@@ -45,67 +45,56 @@
     </div>
 </div>
 
-<div class="row justify-content-center"  style="height: 70vh">
-
-    <!-- data wrapper map visualization by Nikhil -->
-    <div class = "float-child" id="map-chart">
-           
-    <iframe title="Government Stringency Index" aria-label="Map" id="datawrapper-chart-GRMQp" src="https://datawrapper.dwcdn.net/GRMQp/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 30% !important; border: none;" height="514"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-
-</script>
-
-    </script>
-    </div>
-
-    <!-- ordinal output from data + explanations of the information Yousif -->
-    <div class = "float-child">
-        <div id="info-box">
-            <table id = "key-information">
-                <h2>Country Travel Information</h2>
-                <h3 id="heading"> </h3>
-                <tr>
-                    <td>Date</td>
-                    <th id = "row1"></th>
-                </tr>
-                <tr>
-                    <td>Quarantine requirement</td>
-                    <th id = "row2"></th>
-                </tr>
-                <tr>
-                    <td>Public transportation</td>
-                    <th id = "row3"></th>
-                </tr>
-                <tr>
-                    <td>Mask wearing</td>
-                    <th id = "row4"></th>
-                </tr>
-            </table>
+<div class="row justify-content-center"  style="height: 40vh">
+    <section id="boxes">
+        <div class = "container-1">
+            <div class = "box">
+                <table id = "key-information">
+                    <h2>Country Travel Information</h2>
+                    <h3 id="heading"> </h3>
+                    <tr>
+                        <td>Date</td>
+                        <th id = "row1"></th>
+                    </tr>
+                    <tr>
+                        <td>Quarantine requirement</td>
+                        <th id = "row2"></th>
+                    </tr>
+                    <tr>
+                        <td>Public transportation</td>
+                        <th id = "row3"></th>
+                    </tr>
+                    <tr>
+                        <td>Mask wearing</td>
+                        <th id = "row4"></th>
+                    </tr>
+                </table>
+            </div>
+            <div class = "box">
+                <img src = "">
+                <h3>Do I need to quarantine?</h3>
+                <p id="quarantine"></p>
+            </div>
+            <div class = "box">
+                <img src = "">
+                <h3>Can I use public transportation?</h3>
+                <p id="public-transportation"</p>
+            </div>
+            <div class = "box">
+                <img src = "">
+                <h3>Do I need to wear facial coverings?</h3>
+                <p id="facial-coverings"></p>
+            </div>
         </div>
-    </div>
+    </section>
 
 </div>
 
-
-
-<section id="boxes">
-    <div class = "container">
-        <div class = "box">
-            <img src = "">
-            <h3>Do I need to quarantine?</h3>
-            <p id="quarantine"></p>
-        </div>
-        <div class = "box">
-            <img src = "">
-            <h3>Can I use public transportation?</h3>
-            <p id="public-transportation"</p>
-        </div>
-        <div class = "box">
-            <img src = "">
-            <h3>Do I need to wear facial coverings?</h3>
-            <p id="facial-coverings"></p>
-        </div>
+<div class = "float-child" id="map-chart">
+    <iframe title="Government Stringency Index" aria-label="Map" id="datawrapper-chart-GRMQp" src="https://datawrapper.dwcdn.net/GRMQp/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 30% !important; border: none;" height="514"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script></script>
     </div>
-</section>
+
 
 <!-- d3 -->
 <script src="https://d3js.org/d3.v6.min.js"></script>

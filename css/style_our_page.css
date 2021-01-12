@@ -4,7 +4,7 @@ body{
     font: 15px/1.5 Palatino, Times, Arial, Helvetica, sans-serif;
     padding : 0;
     margin : 0;
-    background-color: #116466;
+    background-color: #323D4D;
 }
 
 /* global */
@@ -40,7 +40,7 @@ header a{
 }
 
 header a:hover{
-    color: #116466;
+    color: #323D4D;
 }
 
 header li{
@@ -79,6 +79,10 @@ h3 {
 }
 
 p {
+    color: #ffffff;
+}
+
+body a{
     color: #ffffff;
 }
 
