@@ -4,7 +4,7 @@ body{
     font: 15px/1.5 Palatino, Times, Arial, Helvetica, sans-serif;
     padding : 0;
     margin : 0;
-    background-color: #7C1527;
+    background-color: #116466;
 }
 
 /* global */
@@ -12,6 +12,7 @@ body{
     width: 80%;
     margin: auto;
     overflow: hidden;
+    color: #ffffff;
 }
 
 .contain-fluid {
@@ -68,8 +69,9 @@ header nav{
 }
 
 .about{    
-    padding: 30px;
+    padding: 10px;
     margin: 25px 50px; 
+    color: #ffffff;
 }
 
 h3 {
@@ -83,7 +85,7 @@ p {
 /*footer*/
 footer{
     padding:20px;
-    margin-top: 80px;
+    margin-top: 20px;
     color:#ffffff;
     background-color: #2C3531;
     text-align: center;
