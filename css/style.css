@@ -93,6 +93,7 @@ header nav{
 }
 
 /* search box*/
+
 .search-box{
     position: absolute;
     top: 50%;
@@ -100,7 +101,7 @@ header nav{
     transform: translate(-50%, 400%);
     background: #2f3640;
     height: 40px;
-    border-radius : 40px;
+    border-radius : 30px;
     padding: 10px
 }
 
@@ -131,11 +132,11 @@ header nav{
     width: 0px;
     font-weight:bold
 }
-.search-box:hover > .search-txt{
-    width: 240px;
+.search-box > .search-txt{
+    width: 300px;
     padding: 0 6px;
 }
-.search-box:hover > .search-btn{
+.search-box > .search-btn{
     background:whitesmoke;
     color:black;
 }
