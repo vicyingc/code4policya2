@@ -39,6 +39,17 @@ header ul{
     color: #ffffff
 }
 
+.contain{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contain-fluid {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
 /* header */
 header{
     background: #2C3531;
@@ -62,11 +73,11 @@ header li{
     padding: 5px 15px 0px 15px;
 }
 
-header #branding{
+header #brand{
     float:left;
 }
 
-header #branding h1{
+header #brand h1{
     margin:0;
 }
 
