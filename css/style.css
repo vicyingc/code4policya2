@@ -126,14 +126,14 @@ header nav{
     float:left;
     padding: 0;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     transition: 0.4s;
     line-height: 40px;
     width: 0px;
     font-weight:bold
 }
 .search-box > .search-txt{
-    width: 300px;
+    width: 325px;
     padding: 0 6px;
 }
 .search-box > .search-btn{
