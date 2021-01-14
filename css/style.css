@@ -3,7 +3,7 @@ body{
     font: 15px/1.5 Palatino, Times, Arial, Helvetica, sans-serif;
     padding : 0;
     margin : 0;
-    background-color: #323D4D;
+    background-color: #f8f8ff;
 }
 
 /* global */
@@ -11,7 +11,7 @@ body{
     width: 50%;
     margin: auto;
     overflow: hidden;
-    color: #ffffff;
+    color: #2C3531;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -39,6 +39,17 @@ header ul{
     color: #ffffff
 }
 
+.contain{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contain-fluid {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
 /* header */
 header{
     background: #2C3531;
@@ -62,11 +73,11 @@ header li{
     padding: 5px 15px 0px 15px;
 }
 
-header #branding{
+header #brand{
     float:left;
 }
 
-header #branding h1{
+header #brand h1{
     margin:0;
 }
 
@@ -79,7 +90,7 @@ header nav{
 #showcase{
     min-height: 400px;
     text-align: center;
-    color: #ffffff;
+    color: #2C3531;
 }
 
 #showcase h1{
@@ -149,13 +160,13 @@ header nav{
 /*map*/
 #map_chart{
     position: absolute;
-    color: #ffffff;
+    color: #2C3531;
 }
 
 /*boxes*/
 #boxes{
     margin-top: 20px;
-    color: #ffffff;
+    color: #2C3531;
 }
 
 #boxes.box{
@@ -163,24 +174,24 @@ header nav{
     text-align: center;
     width: 25%;
     padding: 10px;
-    color: #ffffff;
+    color: #2C3531;
 }
 
 .box{
     float: left;
     width: 300px;
     height: 200px;
-    color: #ffffff;
+    color: #2C3531;
 }
 
 .box h3{
     text-align: center;
-    color: #ffffff;
+    color: #2C3531;
 }
 
 .box p{
     text-align: center;
-    color: #ffffff;
+    color: #2C3531;
 }
 
 /*footer*/
@@ -196,17 +207,17 @@ footer{
 .float-child {
     padding: 20px;
     border: 2px #2C3531;
-    color: #ffffff;
+    color: #2C3531;
 }
 
 #map-chart{
     width: 300%;
     float: middle;
-    color: #ffffff;
+    color: #2C3531;
 }
 
 #info-box{
     width: 20%;
-    color: #ffffff;
+    color: #2C3531;
 }
 

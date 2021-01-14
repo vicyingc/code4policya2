@@ -4,7 +4,7 @@ body{
     font: 15px/1.5 Palatino, Times, Arial, Helvetica, sans-serif;
     padding : 0;
     margin : 0;
-    background-color: #7C1527;
+    background-color: #f8f8ff;
 }
 
 /* global */
@@ -64,33 +64,21 @@ header nav{
 /* body */
 #bio {
     float: left;
+    color: #000000;
     margin-right:25px;
 }
 
 .about{    
     padding: 30px;
+    color: #2C3531;
     margin: 25px 50px; 
-}
-
-h3 {
-    color: #ffffff;
-}
-
-p {
-    color: #ffffff;
 }
 
 /*footer*/
 footer{
     padding:20px;
-    margin-top: 80px;
+    margin-top: 60px;
     color:#ffffff;
-    background-color: #2C3531;
+    background-color: #000000;
     text-align: center;
-}
-
-footer a{
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 12px;
 }
