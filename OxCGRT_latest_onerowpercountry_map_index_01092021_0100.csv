@@ -1,184 +1,184 @@
-CountryName,Date,StringencyIndexForDisplay
-Aruba,20201221,31.48
-Afghanistan,20201220,8.33
-Angola,20210104,65.74
-Albania,20210102,60.19
-Andorra,20210104,51.39
-United Arab Emirates,20210108,49.07
-Argentina,20210104,79.17
-Australia,20210107,65.28
-Azerbaijan,20201228,84.26
-Burundi,20210104,14.81
-Belgium,20210107,62.04
-Benin,20210104,35.19
-Burkina Faso,20210104,13.89
-Bangladesh,20201213,80.09
-Bulgaria,20210103,57.41
-Bahrain,20210104,50.93
-Bahamas,20210104,56.94
-Bosnia and Herzegovina,20210106,42.59
-Belarus,20201228,27.78
-Belize,20210103,72.22
-Bermuda,20210106,53.7
-Bolivia,20210103,52.78
-Brazil,20201228,
-Barbados,20210103,59.26
-Brunei,20201221,35.19
-Bhutan,20201222,81.94
-Botswana,20210108,53.7
-Central African Republic,20201222,20.37
-Canada,20210108,64.35
-Switzerland,20210102,60.19
-Chile,20210104,79.17
-China,20210107,78.24
-Cote d'Ivoire,20210104,15.74
-Cameroon,20210104,20.37
-Democratic Republic of Congo,20210104,23.15
-Congo,20210104,43.52
-Colombia,20210103,60.19
-Cape Verde,20210104,64.81
-Costa Rica,20210102,63.89
-Cuba,20210103,56.48
-Cyprus,20210104,74.07
-Czech Republic,20210101,69.44
-Germany,20210106,85.19
-Djibouti,20210104,37.96
-Dominica,20201221,50.93
-Denmark,20210108,67.59
-Dominican Republic,20210103,64.81
-Algeria,20201231,72.22
-Ecuador,20210104,71.3
-Egypt,20210102,65.74
-Eritrea,20210104,86.11
-Spain,20210103,71.3
-Estonia,20210101,55.56
-Ethiopia,20210102,51.85
-Finland,20210108,52.31
-Fiji,20210104,41.67
-France,20210108,63.89
-Faeroe Islands,20210105,36.11
-Gabon,20210104,72.22
-United Kingdom,20210108,75
-Georgia,20210103,84.26
-Ghana,20210104,38.89
-Guinea,20210104,40.74
-Gambia,20210104,45.37
-Greece,20210103,84.26
-Greenland,20210104,37.04
-Guatemala,20210103,52.31
-Guam,20210104,62.96
-Guyana,20201228,68.52
-Honduras,20201214,87.04
-Croatia,20201231,41.67
-Haiti,20210104,28.7
-Hungary,20210102,72.22
-Indonesia,20210104,64.35
-India,20201220,68.98
-Ireland,20210104,69.44
-Iran,20201215,70.83
-Iraq,20210104,53.7
-Iceland,20210103,52.78
-Israel,20210105,76.85
-Italy,20210103,87.96
-Jamaica,20210104,70.37
-Jordan,20210104,81.48
-Japan,20210104,51.85
-Kazakhstan,20210104,68.52
-Kenya,20210104,59.26
-Kyrgyz Republic,20210102,
-Cambodia,20210103,58.33
-South Korea,20210104,62.04
-Kuwait,20210105,62.96
-Laos,20210104,29.63
-Lebanon,20210104,87.04
-Liberia,20210104,35.19
-Libya,20210104,78.7
-Sri Lanka,20210103,78.24
-Lesotho,20210108,70.37
-Lithuania,20210107,74.07
-Luxembourg,20210103,83.33
-Latvia,20201214,53.7
-Macao,20210106,23.15
-Morocco,20210102,80.56
-Monaco,20201226,71.3
-Moldova,20210103,57.41
-Madagascar,20210103,37.04
-Mexico,20210103,71.76
-Mali,20210104,42.59
-Malta,20210108,52.78
-Myanmar,20201220,75.93
-Mongolia,20210104,75.46
-Mozambique,20201231,55.56
-Mauritania,20210104,51.85
-Mauritius,20210104,16.67
-Malawi,20210103,48.15
-Malaysia,20200503,73.15
-Malaysia,20210104,67.13
-Namibia,20210104,38.89
-Niger,20210104,31.48
-Nigeria,20210104,58.33
-Nicaragua,20210103,8.33
-Netherlands,20210106,84.26
-Norway,20210106,64.81
-Nepal,20210102,60.19
-New Zealand,20210105,22.22
-Oman,20210104,37.04
-Pakistan,20210107,64.35
-Panama,20210104,76.85
-Peru,20210104,61.11
-Philippines,20210104,55.09
-Papua New Guinea,20210102,29.63
-Poland,20210104,71.3
-Puerto Rico,20210104,64.81
-Portugal,20201221,67.59
-Paraguay,20210104,52.78
-Palestine,20210104,62.5
-Qatar,20210104,56.48
-Kosovo,20210106,74.07
-Romania,20210103,76.85
-Russia,20210104,47.69
-Rwanda,20201221,55.09
-Saudi Arabia,20210104,52.78
-Sudan,20201123,28.7
-Sudan,20210104,28.7
-Senegal,20210104,43.52
-Singapore,20210107,56.48
-Solomon Islands,20201229,36.11
-Sierra Leone,20210104,37.04
-El Salvador,20210103,47.22
-San Marino,20210103,70.37
-Somalia,20210102,37.96
-Serbia,20210102,60.19
-South Sudan,20210104,47.22
-Suriname,20210105,57.41
-Slovak Republic,20210102,46.3
-Slovenia,20201220,68.52
-Sweden,20210108,71.3
-Eswatini,20210104,59.26
-Seychelles,20210105,34.26
-Syria,20210104,54.17
-Chad,20210103,61.11
-Togo,20210103,68.52
-Thailand,20210103,63.89
-Tajikistan,20201231,36.11
-Turkmenistan,20210104,55.56
-Timor-Leste,20210104,60.19
-Tonga,20210104,47.22
-Trinidad and Tobago,20210102,68.52
-Tunisia,20201215,68.52
-Turkey,20210103,80.09
-Taiwan,20210104,19.44
-Tanzania,20201221,6.48
-Uganda,20210106,47.22
-Ukraine,20210104,61.57
-Uruguay,20210102,70.37
-United States,20210104,71.76
-Uzbekistan,20210103,42.59
-Venezuela,20210103,84.26
-United States Virgin Islands,20201121,46.3
-Vietnam,20210104,55.09
-Vanuatu,20201229,30.56
-Yemen,20201220,16.67
-South Africa,20210103,50
-Zambia,20210104,49.07
-Zimbabwe,20210104,87.04
+CountryName,Date,StringencyIndexForDisplay,C8_International travel controls,Travel Requirement
+Aruba,20201221,31.48,1,"No known travel restrictions, travellers might be screened"
+Afghanistan,20201220,8.33,1,"No known travel restrictions, travellers might be screened"
+Angola,20210104,65.74,4,Travel from all regions is banned ie total border closure
+Albania,20210102,60.19,3,Travellers from some regions are banned
+Andorra,20210104,51.39,1,"No known travel restrictions, travellers might be screened"
+United Arab Emirates,20210108,49.07,2,Travellers may require to quarantine
+Argentina,20210104,79.17,3,Travellers from some regions are banned
+Australia,20210107,65.28,3,Travellers from some regions are banned
+Azerbaijan,20201228,84.26,4,Travel from all regions is banned ie total border closure
+Burundi,20210104,14.81,2,Travellers may require to quarantine
+Belgium,20210107,62.04,3,Travellers from some regions are banned
+Benin,20210104,35.19,1,"No known travel restrictions, travellers might be screened"
+Burkina Faso,20210104,13.89,1,"No known travel restrictions, travellers might be screened"
+Bangladesh,20201213,80.09,3,Travellers from some regions are banned
+Bulgaria,20210103,57.41,3,Travellers from some regions are banned
+Bahrain,20210104,50.93,1,"No known travel restrictions, travellers might be screened"
+Bahamas,20210104,56.94,,No data
+Bosnia and Herzegovina,20210106,42.59,1,"No known travel restrictions, travellers might be screened"
+Belarus,20201228,27.78,4,Travel from all regions is banned ie total border closure
+Belize,20210103,72.22,1,"No known travel restrictions, travellers might be screened"
+Bermuda,20210106,53.7,,No data
+Bolivia,20210103,52.78,3,Travellers from some regions are banned
+Brazil,20201228,,,No data
+Barbados,20210103,59.26,2,Travellers may require to quarantine
+Brunei,20201221,35.19,2,Travellers may require to quarantine
+Bhutan,20201222,81.94,3,Travellers from some regions are banned
+Botswana,20210108,53.7,1,"No known travel restrictions, travellers might be screened"
+Central African Republic,20201222,20.37,2,Travellers may require to quarantine
+Canada,20210108,64.35,3,Travellers from some regions are banned
+Switzerland,20210102,60.19,3,Travellers from some regions are banned
+Chile,20210104,79.17,3,Travellers from some regions are banned
+China,20210107,78.24,3,Travellers from some regions are banned
+Cote d'Ivoire,20210104,15.74,1,"No known travel restrictions, travellers might be screened"
+Cameroon,20210104,20.37,1,"No known travel restrictions, travellers might be screened"
+Democratic Republic of Congo,20210104,23.15,1,"No known travel restrictions, travellers might be screened"
+Congo,20210104,43.52,2,Travellers may require to quarantine
+Colombia,20210103,60.19,4,Travel from all regions is banned ie total border closure
+Cape Verde,20210104,64.81,1,"No known travel restrictions, travellers might be screened"
+Costa Rica,20210102,63.89,1,"No known travel restrictions, travellers might be screened"
+Cuba,20210103,56.48,1,"No known travel restrictions, travellers might be screened"
+Cyprus,20210104,74.07,3,Travellers from some regions are banned
+Czech Republic,20210101,69.44,3,Travellers from some regions are banned
+Germany,20210106,85.19,3,Travellers from some regions are banned
+Djibouti,20210104,37.96,1,"No known travel restrictions, travellers might be screened"
+Dominica,20201221,50.93,2,Travellers may require to quarantine
+Denmark,20210108,67.59,3,Travellers from some regions are banned
+Dominican Republic,20210103,64.81,1,"No known travel restrictions, travellers might be screened"
+Algeria,20201231,72.22,4,Travel from all regions is banned ie total border closure
+Ecuador,20210104,71.3,1,"No known travel restrictions, travellers might be screened"
+Egypt,20210102,65.74,1,"No known travel restrictions, travellers might be screened"
+Eritrea,20210104,86.11,4,Travel from all regions is banned ie total border closure
+Spain,20210103,71.3,3,Travellers from some regions are banned
+Estonia,20210101,55.56,3,Travellers from some regions are banned
+Ethiopia,20210102,51.85,2,Travellers may require to quarantine
+Finland,20210108,52.31,3,Travellers from some regions are banned
+Fiji,20210104,41.67,3,Travellers from some regions are banned
+France,20210108,63.89,3,Travellers from some regions are banned
+Faeroe Islands,20210105,36.11,2,Travellers may require to quarantine
+Gabon,20210104,72.22,3,Travellers from some regions are banned
+United Kingdom,20210108,75,2,Travellers may require to quarantine
+Georgia,20210103,84.26,3,Travellers from some regions are banned
+Ghana,20210104,38.89,1,"No known travel restrictions, travellers might be screened"
+Guinea,20210104,40.74,1,"No known travel restrictions, travellers might be screened"
+Gambia,20210104,45.37,1,"No known travel restrictions, travellers might be screened"
+Greece,20210103,84.26,3,Travellers from some regions are banned
+Greenland,20210104,37.04,4,Travel from all regions is banned ie total border closure
+Guatemala,20210103,52.31,2,Travellers may require to quarantine
+Guam,20210104,62.96,2,Travellers may require to quarantine
+Guyana,20201228,68.52,1,"No known travel restrictions, travellers might be screened"
+Honduras,20201214,87.04,2,Travellers may require to quarantine
+Croatia,20201231,41.67,1,"No known travel restrictions, travellers might be screened"
+Haiti,20210104,28.7,2,Travellers may require to quarantine
+Hungary,20210102,72.22,4,Travel from all regions is banned ie total border closure
+Indonesia,20210104,64.35,3,Travellers from some regions are banned
+India,20201220,68.98,3,Travellers from some regions are banned
+Ireland,20210104,69.44,3,Travellers from some regions are banned
+Iran,20201215,70.83,3,Travellers from some regions are banned
+Iraq,20210104,53.7,3,Travellers from some regions are banned
+Iceland,20210103,52.78,3,Travellers from some regions are banned
+Israel,20210105,76.85,3,Travellers from some regions are banned
+Italy,20210103,87.96,3,Travellers from some regions are banned
+Jamaica,20210104,70.37,3,Travellers from some regions are banned
+Jordan,20210104,81.48,3,Travellers from some regions are banned
+Japan,20210104,51.85,4,Travel from all regions is banned ie total border closure
+Kazakhstan,20210104,68.52,3,Travellers from some regions are banned
+Kenya,20210104,59.26,1,"No known travel restrictions, travellers might be screened"
+Kyrgyz Republic,20210102,,2,Travellers may require to quarantine
+Cambodia,20210103,58.33,2,Travellers may require to quarantine
+South Korea,20210104,62.04,3,Travellers from some regions are banned
+Kuwait,20210105,62.96,2,Travellers may require to quarantine
+Laos,20210104,29.63,4,Travel from all regions is banned ie total border closure
+Lebanon,20210104,87.04,2,Travellers may require to quarantine
+Liberia,20210104,35.19,1,"No known travel restrictions, travellers might be screened"
+Libya,20210104,78.7,1,"No known travel restrictions, travellers might be screened"
+Sri Lanka,20210103,78.24,3,Travellers from some regions are banned
+Lesotho,20210108,70.37,4,Travel from all regions is banned ie total border closure
+Lithuania,20210107,74.07,2,Travellers may require to quarantine
+Luxembourg,20210103,83.33,4,Travel from all regions is banned ie total border closure
+Latvia,20201214,53.7,2,Travellers may require to quarantine
+Macao,20210106,23.15,3,Travellers from some regions are banned
+Morocco,20210102,80.56,3,Travellers from some regions are banned
+Monaco,20201226,71.3,1,"No known travel restrictions, travellers might be screened"
+Moldova,20210103,57.41,3,Travellers from some regions are banned
+Madagascar,20210103,37.04,3,Travellers from some regions are banned
+Mexico,20210103,71.76,1,"No known travel restrictions, travellers might be screened"
+Mali,20210104,42.59,1,"No known travel restrictions, travellers might be screened"
+Malta,20210108,52.78,3,Travellers from some regions are banned
+Myanmar,20201220,75.93,4,Travel from all regions is banned ie total border closure
+Mongolia,20210104,75.46,4,Travel from all regions is banned ie total border closure
+Mozambique,20201231,55.56,3,Travellers from some regions are banned
+Mauritania,20210104,51.85,2,Travellers may require to quarantine
+Mauritius,20210104,16.67,2,Travellers may require to quarantine
+Malawi,20210103,48.15,4,Travel from all regions is banned ie total border closure
+Malaysia,20200503,73.15,3,Travellers from some regions are banned
+Malaysia,20210104,67.13,3,Travellers from some regions are banned
+Namibia,20210104,38.89,1,"No known travel restrictions, travellers might be screened"
+Niger,20210104,31.48,2,Travellers may require to quarantine
+Nigeria,20210104,58.33,2,Travellers may require to quarantine
+Nicaragua,20210103,8.33,1,"No known travel restrictions, travellers might be screened"
+Netherlands,20210106,84.26,3,Travellers from some regions are banned
+Norway,20210106,64.81,2,Travellers may require to quarantine
+Nepal,20210102,60.19,3,Travellers from some regions are banned
+New Zealand,20210105,22.22,4,Travel from all regions is banned ie total border closure
+Oman,20210104,37.04,2,Travellers may require to quarantine
+Pakistan,20210107,64.35,2,Travellers may require to quarantine
+Panama,20210104,76.85,1,"No known travel restrictions, travellers might be screened"
+Peru,20210104,61.11,2,Travellers may require to quarantine
+Philippines,20210104,55.09,2,Travellers may require to quarantine
+Papua New Guinea,20210102,29.63,2,Travellers may require to quarantine
+Poland,20210104,71.3,3,Travellers from some regions are banned
+Puerto Rico,20210104,64.81,2,Travellers may require to quarantine
+Portugal,20201221,67.59,3,Travellers from some regions are banned
+Paraguay,20210104,52.78,1,"No known travel restrictions, travellers might be screened"
+Palestine,20210104,62.5,2,Travellers may require to quarantine
+Qatar,20210104,56.48,2,Travellers may require to quarantine
+Kosovo,20210106,74.07,2,Travellers may require to quarantine
+Romania,20210103,76.85,3,Travellers from some regions are banned
+Russia,20210104,47.69,3,Travellers from some regions are banned
+Rwanda,20201221,55.09,1,"No known travel restrictions, travellers might be screened"
+Saudi Arabia,20210104,52.78,4,Travel from all regions is banned ie total border closure
+Sudan,20201123,28.7,1,"No known travel restrictions, travellers might be screened"
+Sudan,20210104,28.7,3,Travellers from some regions are banned
+Senegal,20210104,43.52,3,Travellers from some regions are banned
+Singapore,20210107,56.48,3,Travellers from some regions are banned
+Solomon Islands,20201229,36.11,4,Travel from all regions is banned ie total border closure
+Sierra Leone,20210104,37.04,1,"No known travel restrictions, travellers might be screened"
+El Salvador,20210103,47.22,1,"No known travel restrictions, travellers might be screened"
+San Marino,20210103,70.37,2,Travellers may require to quarantine
+Somalia,20210102,37.96,1,"No known travel restrictions, travellers might be screened"
+Serbia,20210102,60.19,1,"No known travel restrictions, travellers might be screened"
+South Sudan,20210104,47.22,1,"No known travel restrictions, travellers might be screened"
+Suriname,20210105,57.41,3,Travellers from some regions are banned
+Slovak Republic,20210102,46.3,2,Travellers may require to quarantine
+Slovenia,20201220,68.52,2,Travellers may require to quarantine
+Sweden,20210108,71.3,3,Travellers from some regions are banned
+Eswatini,20210104,59.26,1,"No known travel restrictions, travellers might be screened"
+Seychelles,20210105,34.26,3,Travellers from some regions are banned
+Syria,20210104,54.17,3,Travellers from some regions are banned
+Chad,20210103,61.11,2,Travellers may require to quarantine
+Togo,20210103,68.52,2,Travellers may require to quarantine
+Thailand,20210103,63.89,2,Travellers may require to quarantine
+Tajikistan,20201231,36.11,2,Travellers may require to quarantine
+Turkmenistan,20210104,55.56,4,Travel from all regions is banned ie total border closure
+Timor-Leste,20210104,60.19,4,Travel from all regions is banned ie total border closure
+Tonga,20210104,47.22,4,Travel from all regions is banned ie total border closure
+Trinidad and Tobago,20210102,68.52,4,Travel from all regions is banned ie total border closure
+Tunisia,20201215,68.52,2,Travellers may require to quarantine
+Turkey,20210103,80.09,2,Travellers may require to quarantine
+Taiwan,20210104,19.44,3,Travellers from some regions are banned
+Tanzania,20201221,6.48,1,"No known travel restrictions, travellers might be screened"
+Uganda,20210106,47.22,1,"No known travel restrictions, travellers might be screened"
+Ukraine,20210104,61.57,2,Travellers may require to quarantine
+Uruguay,20210102,70.37,4,Travel from all regions is banned ie total border closure
+United States,20210104,71.76,3,Travellers from some regions are banned
+Uzbekistan,20210103,42.59,3,Travellers from some regions are banned
+Venezuela,20210103,84.26,4,Travel from all regions is banned ie total border closure
+United States Virgin Islands,20201121,46.3,2,Travellers may require to quarantine
+Vietnam,20210104,55.09,4,Travel from all regions is banned ie total border closure
+Vanuatu,20201229,30.56,4,Travel from all regions is banned ie total border closure
+Yemen,20201220,16.67,2,Travellers may require to quarantine
+South Africa,20210103,50,2,Travellers may require to quarantine
+Zambia,20210104,49.07,1,"No known travel restrictions, travellers might be screened"
+Zimbabwe,20210104,87.04,4,Travel from all regions is banned ie total border closure
