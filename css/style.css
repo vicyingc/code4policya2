@@ -114,6 +114,12 @@ header nav{
 
 /* search box*/
 
+#search-container{
+    min-height: 200px;
+    text-align: center;
+    color: #2C3531;
+}
+
 .search-box{
     position: absolute;
     top: 50%;
@@ -247,4 +253,4 @@ element.style {
     margin-bottom: 1rem;
     border: 1px solid transparent;
     border-radius: .25rem;
-=======
+}
