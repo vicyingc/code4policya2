@@ -188,9 +188,10 @@ header nav{
 
 .box{
     float: left;
-    width: 300px;
+    width: 320px;
     height: 200px;
     color: #2C3531;
+    padding: 10px 10px 10px 10px;
 }
 
 .box h3{
@@ -230,6 +231,7 @@ footer{
     color: #2C3531;
 }
 
+
 element.style {
 }
 .alert-warning {
@@ -245,3 +247,4 @@ element.style {
     margin-bottom: 1rem;
     border: 1px solid transparent;
     border-radius: .25rem;
+=======
