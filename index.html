@@ -54,54 +54,45 @@
 </div>
 
 <div class="row justify-content-center"  style="height: 40vh">
-    <section id="boxes">
-        <div class = "container-1">
-            <div class = "box">
-                <table id = "key-information">
-                    <h2>🌍 Country Travel Information</h2>
-                    <h3 id="heading"> </h3>
-                    <tr>
-                        <td>📆 Data as of </td>
-                        <th id = "row1"></th>
-<!-- popup-->
-                        <div class="popup" onclick="myFunction()">ℹ
-  <span class="popuptext" id="myPopup">More info</span>
-</div>
-<!-- popup end-->
-                    </tr>
-                    <tr>
-                        <td>Quarantine requirement</td>
-                        <th id = "row2"></th>
-                    </tr>
-                    <tr>
-                        <td>Public transportation</td>
-                        <th id = "row3"></th>
-                    </tr>
-                    <tr>
-                        <td>Mask wearing</td>
-                        <th id = "row4"></th>
-                    </tr>
-                </table>
+        <section id="boxes">
+            <div class = "container-1">
+                <div class = "box">
+                    <table id = "key-information">
+                        <h2>🌍 Country Travel Info</h2>
+                        <h3 id="heading"> </h3>
+                        <tr>
+                            <td>📆 <b>Data as of </b></td>
+                            <th id = "row1"></th>
+                        </tr>
+                    </table>
+                </div>
             </div>
             <div class = "box">
                 <img src = "">
                 <h3> 🏡 Do I need to quarantine? </h3>
                 <p id="quarantine"></p>
+                <p> restriction level: </p>
+                <p id="row2"></p>
             </div>
             <div class = "box">
                 <img src = "">
                 <h3>🚄 Can I use public transportation? </h3>
                 <p id="public-transportation"></p>
+                <p> restriction level: </p>
+                <p id = "row3"></p>
             </div>
             <div class = "box">
                 <img src = "">
                 <h3>😷 Do I need to wear facial coverings? </h3>
                 <p id="facial-coverings"></p>
+                <p> restriction level: </p>
+                <p id = "row4"></p>
             </div>
-        </div>
+    </div>
     </section>
 
-</div>
+    </div>
+
 
 <center>
 <div class = "float-child" id="map-chart">
