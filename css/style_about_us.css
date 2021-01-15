@@ -68,6 +68,20 @@ header nav{
     margin-right:25px;
 }
 
+.contain-2{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contain-2 h1{
+    color: #2C3531;
+}
+
+.contain-2 h2{
+    color: #2C3531;
+}
+
 .about{    
     padding: 30px;
     color: #2C3531;

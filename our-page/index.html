@@ -36,8 +36,61 @@
 <!-- Main text --> 
 <div class="contain-2">
 
-    <p>Thank you for visiting the first version of our web application.  Using a <a href="https://data.humdata.org/dataset/oxford-covid-19-government-response-tracker">dataset</a> managed by the wonderful people at Oxford University, we're trying to simplify the process for you - a traveler - to better understand the quickly changing COVID-19 restrictions in place around the world by summarizing the important details in one, single location. Right now, this includes three pieces of information, with possible values summarized in the below table:</p>
-    <img src="./Possible-Restrictions-Table.png" alt="List of possible restriction values returned by our tool" width="1000" height="484">
+    <p>Thank you for visiting the first version of our web application.  Using a <a href="https://data.humdata.org/dataset/oxford-covid-19-government-response-tracker">dataset</a> managed by the wonderful people at Oxford University, we're trying to simplify the process for you - a traveler - to better understand the quickly changing COVID-19 restrictions in place around the world by summarizing the important details in a single location. Right now, this includes three pieces of information, with possible values summarized in the below table:</p>
+
+    <table style="width:100%">
+        <tr>
+            <th>Question</th>
+            <th>Restriction Level</th>
+        </tr>
+        <tr>
+            <th rowspan="4">Can I use public transportation?</th>
+            <td>0 - No measures</td>
+        </tr>
+        <tr>
+            <td>1 - Recommend closing (or significantly reduce volume/route/means of transport available)</td>
+        </tr>
+        <tr>
+            <td>2 - Require closing (or prohibit most citizens from using it)</td>
+        </tr>
+        <tr>
+            <td>Blank - No data</td>
+        </tr>
+        <th rowspan="6">Do I need to quarantine upon arrival?</th>
+            <td>0 - No restrictions</td>
+        </tr>
+        <tr>
+            <td>1 - Screening arrivals</td>
+        </tr>
+        <tr>
+            <td>2 - Quarantine arrivals from some or all regions</td>
+        </tr>
+        <tr>
+            <td>3 - Ban arrivals from some regions</td>
+        </tr>
+        <tr>
+            <td>4 - Ban on all regions or total border closure</td>
+        </tr>
+        <tr>
+            <td>Blank - No data</td>
+        </tr>
+        <th rowspan="6">Do I need to quarantine upon arrival?</th>
+            <td>0 - No policy</td>
+        </tr>
+        <tr>
+            <td>1 - Recommended</td>
+        </tr>
+        <tr>
+            <td>2 - Required in some specified shared/public spaces outside the home with other people present, or some situations when social distancing not possible</td>
+        </tr>
+        <tr>
+            <td>3 - Required in all shared/public spaces outside the home with other people present or all situations when social distancing not possible</td>
+        </tr>
+        <tr>
+            <td>4 - Required outside the home at all times regardless of location or presence of other people</td>
+        </tr>
+    </table>
+
     <h2>What's coming next?</h2>
     <p>Right now, our site is pretty basic, but we have some big ideas for ways we might add to it! Here are some that we're working on:</p>
         <ul>
