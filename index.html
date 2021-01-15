@@ -27,13 +27,20 @@
     </div>
 </header>
 
+<center>
 <!-- explanations for our project Pat -->
 <section id = "showcase">
     <div class = "maincontainer">
         <h1>COVID-19 Restrictions by Country</h1>
-        <p>Welcome!</p> 
+        <p>Welcome!👋</p> 
         <p>The purpose of this tool is to help you navigate the wide-ranging and fast-changing COVID-19 restrictions around the world. Explore countries on the map or search for a specific country below!</p>
     </div>
+
+    
+   <center> <div class="alert alert-warning" data-alert="warning" role="alert"> 
+        <p> ⚠ COVID-19 cases are rising world over. The <a href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html">CDC recommends </a>  avoiding non-essential travel. Please remember to wear a mask, wash your hands, stay 6 feet apart, and avoid crowds.⚠ </p></div> </center>
+        
+
 </section>
 
 <!-- search bar victoria -->
@@ -56,6 +63,11 @@
                     <tr>
                         <td>📆 Data as of </td>
                         <th id = "row1"></th>
+<!-- popup-->
+                        <div class="popup" onclick="myFunction()">ℹ
+  <span class="popuptext" id="myPopup">More info</span>
+</div>
+<!-- popup end-->
                     </tr>
                     <tr>
                         <td>Quarantine requirement</td>
@@ -91,11 +103,12 @@
 
 </div>
 
+<center>
 <div class = "float-child" id="map-chart">
-    <iframe title="Where can I travel to right now?" aria-label="Map" id="datawrapper-chart-ujNt2" src="https://datawrapper.dwcdn.net/ujNt2/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 30% !important; border: none;" height="440"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+    <iframe title="Where can I travel to right now?" aria-label="Map" id="datawrapper-chart-ujNt2" src="https://datawrapper.dwcdn.net/ujNt2/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 80% !important; border: none;" height="440"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
 </script></script>
-    </div>
+    </div> 
 
 
 <!-- d3 -->
@@ -105,6 +118,7 @@
 <script src="js/main.js"></script>
 <script src="js/map.js"></script>
 
+</center>
 <footer>
     <p>This site was created as part of a group project for DPI-691: Programming and Data for Policymakers, a graduate course at the Harvard Kennedy School.</p>
 </footer>

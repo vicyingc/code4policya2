@@ -116,7 +116,7 @@ header nav{
 
 .search-box{
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, 400%);
     background: #2f3640;
@@ -188,9 +188,10 @@ header nav{
 
 .box{
     float: left;
-    width: 300px;
+    width: 320px;
     height: 200px;
     color: #2C3531;
+    padding: 10px 10px 10px 10px;
 }
 
 .box h3{
@@ -220,7 +221,7 @@ footer{
 }
 
 #map-chart{
-    width: 300%;
+    width: 100%;
     float: middle;
     color: #2C3531;
 }
@@ -230,3 +231,20 @@ footer{
     color: #2C3531;
 }
 
+
+element.style {
+}
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    width: 60%;
+    text-align: center
+}
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+=======
