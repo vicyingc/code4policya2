@@ -7,6 +7,15 @@ body{
 }
 
 /* global */
+.maincontainer{
+    width: 78%;
+    margin: auto;
+    overflow: hidden;
+    color: #2C3531;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .container{
     width: 50%;
     margin: auto;
@@ -107,7 +116,7 @@ header nav{
 
 .search-box{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, 400%);
     background: #2f3640;
