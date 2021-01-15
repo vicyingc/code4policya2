@@ -188,9 +188,10 @@ header nav{
 
 .box{
     float: left;
-    width: 300px;
+    width: 320px;
     height: 200px;
     color: #2C3531;
+    padding: 10px 10px 10px 10px;
 }
 
 .box h3{
@@ -220,7 +221,7 @@ footer{
 }
 
 #map-chart{
-    width: 300%;
+    width: 350%;
     float: middle;
     color: #2C3531;
 }
@@ -229,4 +230,3 @@ footer{
     width: 20%;
     color: #2C3531;
 }
-
