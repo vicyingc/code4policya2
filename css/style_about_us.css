@@ -69,9 +69,48 @@ header nav{
 }
 
 .contain-2{
-    width: 80%;
+    width: 60%;
     margin: auto;
     overflow: hidden;
+    alignment: center;
+}
+
+.contain-3{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    alignment: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+/* Set additional styling options for the columns */
+.column {
+    float: left;
+    text-align: center;
+}
+
+/* Set width length for the left, right and middle columns */
+.left {
+    width: 20%;
+}
+
+.middle {
+    width: 15%;
+}
+
+.right {
+    width: 55%;
+}
+.last{
+    width: 10%;
+    padding-top: 45px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .contain-2 h1{
@@ -96,3 +135,9 @@ footer{
     background-color: #000000;
     text-align: center;
 }
+
+.develop{
+    float: left;
+    alignment: center;
+}
+
