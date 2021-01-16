@@ -28,34 +28,35 @@
 </header>
 
 
-<center>
 <!-- explanations for our project Pat -->
 <section id = "showcase">
-	<div class = "maincontainer">
-		<h1>COVID-19 Restrictions by Country</h1>
-		<p>Welcome!👋</p> 
-		<p>The purpose of this tool is to help you navigate the wide-ranging and fast-changing COVID-19 restrictions around the world. Explore countries on the map or search for a specific country below!</p>
-	</div>
+    <div class = "maincontainer">
+        <h1>COVID-19 Restrictions by Country</h1>
+        <p>Welcome!👋</p> 
+        <p>The purpose of this tool is to help you navigate the wide-ranging and fast-changing COVID-19 restrictions around the world. Explore countries on the map or search for a specific country below!</p>
+    </div>
+    
+<center> 
+    <div class="alert alert-warning" data-alert="warning" role="alert"> 
+        <p> ⚠ The <a href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html">CDC</a> and <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public">WHO</a> recommend avoiding non-essential travel because of COVID-19. Please remember to wear a mask, wash your hands, 6 feet apart, and avoid crowds.⚠ </p>
+    </div> 
+</center>
 
-
-
-	
-   <center> <div class="alert alert-warning" data-alert="warning" role="alert"> 
-
-        <p> ⚠ COVID-19 cases are rising world over. The <a href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html">CDC recommends </a>  avoiding non-essential travel. Please remember to wear a mask, wash your hands, stay 6 feet apart, and avoid crowds.⚠ </p>
-        <p> Disclaimer: This tool does not intend to, by any means, encourage people to travel, but rather help them with their travel arrangements. Travel restrictions, and people’s adherence to essential trips are key elements in reducing the geographic spread of Covid. Limit your travels to the necessary ones only. When you have to, follow the protocol on hygiene, face covering, social distancing and quarantine, for the public’s and your own safety.</p></div> </center>
-        
 </section>
 
 <!-- search bar victoria -->
 <div class ="container">
-	<div class="search-box">
-		<input type="text" name = "searchbar" class = "search-txt"  placeholder="Search Country (Exact Capitalization Required)" id="country">
-		<a class="search-btn" onclick="ShowInput()"> <!-- click to show information-->
-			<i class="far fa-search"></i>
-		</a>
-	</div>
+
+    <div class="search-box">
+        <input type="text" name = "searchbar" class = "search-txt"  placeholder="Search Country (Capitalize First Letter)" id="country">
+
+        <a class="search-btn" onclick="ShowInput()"> <!-- click to show information-->
+            <i class="far fa-search"></i>
+        </a>
+    </div>
+
 </div>
+
 
 <div class="row justify-content-center"  style="height: 40vh">
 		<section id="boxes">
