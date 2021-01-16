@@ -2,29 +2,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content = "width=device-width">
-    <meta name="author" content = "code4policya2">
-    <title>Navigating the Pandemic</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content = "width=device-width">
+	<meta name="author" content = "code4policya2">
+	<title>Navigating the Pandemic</title>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-    <!-- our CSS -->
-    <link rel = "stylesheet" href="css/style.css">
+	<!-- our CSS -->
+	<link rel = "stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
-    <div class = "contain">
-        <div id="brand">
-            <h1><a href="index.html">Navigating the Pandemic</a></h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="our-page/index.html">About This Page</a></li>
-                <li><a href="our-team/index.html">About Us</a></li>
-            </ul>
-        </nav>
-    </div>
+	<div class = "contain">
+		<div id="brand">
+			<h1><a href="index.html">Navigating the Pandemic</a></h1>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="our-page/index.html">About This Page</a></li>
+				<li><a href="our-team/index.html">About Us</a></li>
+			</ul>
+		</nav>
+	</div>
 </header>
 
 
@@ -59,67 +59,67 @@
 
 
 <div class="row justify-content-center"  style="height: 40vh">
-        <section id="boxes">
-            <div class = "container-1">
-                <div class = "box">
-                    <table id = "key-information">
-                        <h2>🌍 Country Travel Info</h2>
-                        <h3 id="heading"> </h3>
-                        <tr>
-                            <td>📆 <b>Data as of </b></td>
-                            <th id = "row1"></th>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class = "box">
-                <img src = "">
-                <h3> 🏡 Do I need to quarantine? </h3>
-                <p id="quarantine"></p>
-                    <div class="popup" onclick="myFunction()"><p><b>Restriction Level:🔎
+		<section id="boxes">
+			<div class = "container-1">
+				<div class = "box">
+					<table id = "key-information">
+						<h2>🌍 Country Travel Info</h2>
+						<h3 id="heading"> </h3>
+						<tr>
+							<td>📆 <b>Data as of </b></td>
+							<th id = "row1"></th>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class = "box">
+				<img src = "">
+				<h3> 🏡 Do I need to quarantine? </h3>
+				<p id="quarantine"></p>
+				    <div class="popup" onclick="myFunction()"><p><b>Restriction Level:🔎
   </b></p><span class="popuptext" id="myPopup">🚩More details<a href="https://vicyingc.github.io/code4policya2/our-page/index.html" target="_blank">  here</a></span>
   <p id="row2"></p>
 </div>
 
 
-            </div>
-            <div class = "box">
-                <img src = "">
-                <h3>🚄 Can I use public transportation? </h3>
-                <p id="public-transportation"></p>
-                
+			</div>
+			<div class = "box">
+				<img src = "">
+				<h3>🚄 Can I use public transportation? </h3>
+				<p id="public-transportation"></p>
+				
 
-                <div class="popup" onclick="myFunction()"><p><b>Restriction Level:🔎
+				<div class="popup" onclick="myFunction()"><p><b>Restriction Level:🔎
   </b></p><span class="popuptext" id="myPopup">🚩More details<a href="https://vicyingc.github.io/code4policya2/our-page/index.html" target="_blank">  here</a></span>
   <p id="row3"></p>
 </div>
-                                
-        
+								
+		
 
-            </div>
-            <div class = "box">
-                <img src = "">
-                <h3>😷 Do I need to wear facial coverings? </h3>
-                <p id="facial-coverings"></p>
-                
-                <div class="popup" onclick="myFunction()"><p><b>Restriction Level:🔎
+			</div>
+			<div class = "box">
+				<img src = "">
+				<h3>😷 Do I need to wear facial coverings? </h3>
+				<p id="facial-coverings"></p>
+				
+				<div class="popup" onclick="myFunction()"><p><b>Restriction Level:🔎
   </b></p><span class="popuptext" id="myPopup">🚩More details<a href="https://vicyingc.github.io/code4policya2/our-page/index.html" target="_blank">  here</a></span>
   <p id="row4"></p>
 </div>
-            
-            </div>
-            </div>
-    </div>
-    </section>
+			
+			</div>
+			</div>
+	</div>
+	</section>
 
-    </div>
+	</div>
 
 
 <center>
 <div class = "float-child" id="map-chart">
-    <iframe title="Where can I travel to right now?" aria-label="Map" id="datawrapper-chart-ujNt2" src="https://datawrapper.dwcdn.net/ujNt2/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 80% !important; border: none;" height="440"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+	<iframe title="Where can I travel to right now?" aria-label="Map" id="datawrapper-chart-ujNt2" src="https://datawrapper.dwcdn.net/ujNt2/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 80% !important; border: none;" height="440"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
-    </div> 
+	</div> 
 
 
 <!-- d3 -->
@@ -129,19 +129,21 @@
 <script src="js/main.js"></script>
 <script src="js/map.js"></script>
 
-    <script>
-        // When the user clicks on <div>, open the popup
-        function myFunction() {
-            var popup = document.getElementById("myPopup");
-            popup.classList.toggle("show");
-        }
-    </script>
+	<script>
+		// When the user clicks on <div>, open the popup
+		function myFunction() {
+			var popup = document.getElementById("myPopup");
+			popup.classList.toggle("show");
+		}
+	</script>
 
 </center>
 <footer>
-    <p>This site was created as part of a group project for DPI-691: Programming and Data for Policymakers, a graduate course at the Harvard Kennedy School.</p>
+	<p>This site was created as part of a group project for DPI-691: Programming and Data for Policymakers, a graduate course at the Harvard Kennedy School.</p>
 </footer>
 
 </body>
 </html>
+
+
 

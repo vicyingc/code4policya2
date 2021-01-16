@@ -138,6 +138,18 @@ footer{
 
 .develop{
     float: left;
-    alignment: center;
+    alignment: center;  
+    padding-top: 90px;
+}
+.develop_1{
+    float: left;
+    alignment: center; 
+    text-align:justify; 
+        
+}
+
+.linkicon{    
+    float:right; 
+    padding-top: 90px;
 }
 
