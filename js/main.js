@@ -33,7 +33,7 @@ function ShowInput(d){
 
     countryOutput = travelData.filter(function(country){
         // filter based on search bar input
-        return country.CountryName === countryInput
+        return country.CountryName.toLowerCase() === countryInput.toLowerCase()
     })
     //show them in the console
     console.log(countryOutput);
