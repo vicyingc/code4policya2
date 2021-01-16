@@ -43,10 +43,16 @@ function ShowInput(d){
     document.getElementById("heading").innerHTML =
         countryOutput[0].CountryName
 
-    // parse date
+    // parses date and reorders to display MM/DD/YYYY
 
     document.getElementById("row1").innerHTML =
-        countryOutput[0].Date
+        (countryOutput[0].Date.substr(4,2)
+            + "/" + countryOutput[0].Date.substr(6,2) 
+            + "/" + countryOutput[0].Date.substr(0,4))
+
+    //in case I lose the original date output
+    //document.getElementById("row1").innerHTML =
+      //  countryOutput[0].Date
 
     // defined three variables that contain the ordinal scale information of each column
     var quarantineInfo = document.getElementById("row2").innerHTML =
@@ -64,16 +70,16 @@ function ShowInput(d){
     // Note: remember to change the elementId into public-transportation, facial-coverings, respectively.
     if (quarantineInfo == 2){
         document.getElementById("quarantine").innerHTML =
-            "Depending on your country of origin, you may need to quarantine, please check specific instructions."
+            "Depending on your country of origin, you may need to quarantine. Please refer to guidance from the country's health agency for specific instructions."
     } else if (quarantineInfo == 0){
         document.getElementById("quarantine").innerHTML =
-            "There is no quarantine requirement, lucky you!"
+            "There is no quarantine requirement. Lucky you!"
     } else if (quarantineInfo == 1){
         document.getElementById("quarantine").innerHTML =
-            "Temperature screening at airports, random picks for Covid testing, and quarantine for detected high temperatures."
+            "Temperature screening at airports, random Covid testing, and quarantine for detected high temperatures."
     } else if (quarantineInfo == 3){
         document.getElementById("quarantine").innerHTML =
-            "Quarantine for all arrivals, and ban for some. Check your country of origin against the list of banned countries."
+            "Quarantine for all arrivals, and travel bans from some countries. Check your country of origin against the list of banned countries."
     } else if (quarantineInfo == 4){
         document.getElementById("quarantine").innerHTML =
             "Oh my, border is closed! I don't even know how you got in! Border control!"
@@ -85,10 +91,10 @@ function ShowInput(d){
     // the other two columns go here
     if (publicTransportInfo == 0){
         document.getElementById("public-transportation").innerHTML =
-            "Public transportation functions as normal"
+            "Public transportation is functioning normally, but please travel safe!"
     } else if (publicTransportInfo == 1){
         document.getElementById("public-transportation").innerHTML =
-            "Public transportations are limited to some routes, and capacity is reduced. Check for active routes, or try walking for a chnage!"
+            "Public transportation is limited to some routes and capacity is reduced. Check for active routes, or try walking for a change!"
     } else if (publicTransportInfo == 2){
         document.getElementById("public-transportation").innerHTML =
             "Ahh, public transportation is closed. Please google 'car renting'!"
@@ -99,19 +105,19 @@ function ShowInput(d){
 
     if (facialCoveringsInfo  == 0){
         document.getElementById("facial-coverings").innerHTML =
-            "You don't have to wear a mask"
+            "You don't have to wear a mask in public. Is it 2019 again?"
     } else if (facialCoveringsInfo  == 1){
         document.getElementById("facial-coverings").innerHTML =
-            "Mask wearing is not a must but recommended"
+            "Mask wearing is not a must, but recommended."
     } else if (facialCoveringsInfo  == 2){
         document.getElementById("facial-coverings").innerHTML =
             "You need to wear a mask in some public places and around people. Don't forget to bring one!"
     } else if (facialCoveringsInfo == 3){
         document.getElementById("facial-coverings").innerHTML =
-            "You need to wear a mask in all public places, and when social distancing is not possible"
+            "You need to wear a mask in all public places, and when social distancing is not possible."
     }  else if (facialCoveringsInfo == 4){
         document.getElementById("facial-coverings").innerHTML =
-            "You have to wear a mask outside your home no matter what!"
+            "You have to wear a mask outside of your home, no matter what!"
     }  else if (facialCoveringsInfo == ""){
         document.getElementById("facial-coverings").innerHTML =
             "No data available"
