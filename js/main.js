@@ -43,6 +43,8 @@ function ShowInput(d){
     document.getElementById("heading").innerHTML =
         countryOutput[0].CountryName
 
+    // parse date
+
     document.getElementById("row1").innerHTML =
         countryOutput[0].Date
 
@@ -62,16 +64,16 @@ function ShowInput(d){
     // Note: remember to change the elementId into public-transportation, facial-coverings, respectively.
     if (quarantineInfo == 2){
         document.getElementById("quarantine").innerHTML =
-            "Yes, you may need to quarantine, please check specific instructions for your country of origin"
+            "Depending on your country of origin, you may need to quarantine, please check specific instructions."
     } else if (quarantineInfo == 0){
         document.getElementById("quarantine").innerHTML =
             "There is no quarantine requirement, lucky you!"
     } else if (quarantineInfo == 1){
         document.getElementById("quarantine").innerHTML =
-            "This country screens its travellers, do you have required documents with you?"
+            "Temperature screening at airports, random picks for Covid testing, and quarantine for detected high temperatures."
     } else if (quarantineInfo == 3){
         document.getElementById("quarantine").innerHTML =
-            "You are lucky to have arrived in this country. You probably need to quarantine. "
+            "Quarantine for all arrivals, and ban for some. Check your country of origin against the list of banned countries."
     } else if (quarantineInfo == 4){
         document.getElementById("quarantine").innerHTML =
             "Oh my, border is closed! I don't even know how you got in! Border control!"
@@ -86,10 +88,10 @@ function ShowInput(d){
             "Public transportation functions as normal"
     } else if (publicTransportInfo == 1){
         document.getElementById("public-transportation").innerHTML =
-            "The volume, route, and means of transportation may be limited or closed. Try on foot?"
+            "Public transportations are limited to some routes, and capacity is reduced. Check for active routes, or try walking for a chnage!"
     } else if (publicTransportInfo == 2){
         document.getElementById("public-transportation").innerHTML =
-            "Ahh, public transportation is prohibited or closed to some citizens. Please google 'car renting'!"
+            "Ahh, public transportation is closed. Please google 'car renting'!"
     } else if (publicTransportInfo == ""){
         document.getElementById("public-transportation").innerHTML =
             "No data available"
@@ -100,13 +102,13 @@ function ShowInput(d){
             "You don't have to wear a mask"
     } else if (facialCoveringsInfo  == 1){
         document.getElementById("facial-coverings").innerHTML =
-            "Mask wearing is recommended"
+            "Mask wearing is not a must but recommended"
     } else if (facialCoveringsInfo  == 2){
         document.getElementById("facial-coverings").innerHTML =
-            "You need to wear a mask in most public places and around people. Don't forget to bring one!"
+            "You need to wear a mask in some public places and around people. Don't forget to bring one!"
     } else if (facialCoveringsInfo == 3){
         document.getElementById("facial-coverings").innerHTML =
-            "You need to wear a mask outside your home when there are other people around!"
+            "You need to wear a mask in all public places, and when social distancing is not possible"
     }  else if (facialCoveringsInfo == 4){
         document.getElementById("facial-coverings").innerHTML =
             "You have to wear a mask outside your home no matter what!"
@@ -114,4 +116,10 @@ function ShowInput(d){
         document.getElementById("facial-coverings").innerHTML =
             "No data available"
     }}
+
+// When the user clicks on <div>, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
 

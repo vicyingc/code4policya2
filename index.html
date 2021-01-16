@@ -27,7 +27,7 @@
     </div>
 </header>
 
-<center>
+
 <!-- explanations for our project Pat -->
 <section id = "showcase">
     <div class = "maincontainer">
@@ -35,23 +35,28 @@
         <p>Welcome!👋</p> 
         <p>The purpose of this tool is to help you navigate the wide-ranging and fast-changing COVID-19 restrictions around the world. Explore countries on the map or search for a specific country below!</p>
     </div>
-
     
-   <center> <div class="alert alert-warning" data-alert="warning" role="alert"> 
-        <p> ⚠ COVID-19 cases are rising world over. The <a href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html">CDC recommends </a>  avoiding non-essential travel. Please remember to wear a mask, wash your hands, stay 6 feet apart, and avoid crowds.⚠ </p></div> </center>
-        
+<center> 
+    <div class="alert alert-warning" data-alert="warning" role="alert"> 
+        <p> ⚠ The <a href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html">CDC</a> and <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public">WHO</a> recommend avoiding non-essential travel because of COVID-19. Please remember to wear a mask, wash your hands, 6 feet apart, and avoid crowds.⚠ </p>
+    </div> 
+</center>
 
 </section>
 
 <!-- search bar victoria -->
 <div class ="container">
+
     <div class="search-box">
-        <input type="text" name = "searchbar" class = "search-txt"  placeholder="Search Country (Exact Capitalization Required)" id="country">
+        <input type="text" name = "searchbar" class = "search-txt"  placeholder="Search Country (Capitalize First Letter)" id="country">
+
         <a class="search-btn" onclick="ShowInput()"> <!-- click to show information-->
             <i class="far fa-search"></i>
         </a>
     </div>
+
 </div>
+
 
 <div class="row justify-content-center"  style="height: 40vh">
         <section id="boxes">
@@ -71,22 +76,38 @@
                 <img src = "">
                 <h3> 🏡 Do I need to quarantine? </h3>
                 <p id="quarantine"></p>
-                <p> restriction level: </p>
-                <p id="row2"></p>
+                    <div class="popup" onclick="myFunction()"><p><b>Restriction Level:🔎
+  </b></p><span class="popuptext" id="myPopup">🚩More details<a href="https://vicyingc.github.io/code4policya2/our-page/index.html" target="_blank">  here</a></span>
+  <p id="row2"></p>
+</div>
+
+
             </div>
             <div class = "box">
                 <img src = "">
                 <h3>🚄 Can I use public transportation? </h3>
                 <p id="public-transportation"></p>
-                <p> restriction level: </p>
-                <p id = "row3"></p>
+                
+
+                <div class="popup" onclick="myFunction()"><p><b>Restriction Level:🔎
+  </b></p><span class="popuptext" id="myPopup">🚩More details<a href="https://vicyingc.github.io/code4policya2/our-page/index.html" target="_blank">  here</a></span>
+  <p id="row3"></p>
+</div>
+                                
+        
+
             </div>
             <div class = "box">
                 <img src = "">
                 <h3>😷 Do I need to wear facial coverings? </h3>
                 <p id="facial-coverings"></p>
-                <p> restriction level: </p>
-                <p id = "row4"></p>
+                
+                <div class="popup" onclick="myFunction()"><p><b>Restriction Level:🔎
+  </b></p><span class="popuptext" id="myPopup">🚩More details<a href="https://vicyingc.github.io/code4policya2/our-page/index.html" target="_blank">  here</a></span>
+  <p id="row4"></p>
+</div>
+            
+            </div>
             </div>
     </div>
     </section>
@@ -98,7 +119,6 @@
 <div class = "float-child" id="map-chart">
     <iframe title="Where can I travel to right now?" aria-label="Map" id="datawrapper-chart-ujNt2" src="https://datawrapper.dwcdn.net/ujNt2/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 80% !important; border: none;" height="440"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
-</script></script>
     </div> 
 
 
@@ -109,6 +129,14 @@
 <script src="js/main.js"></script>
 <script src="js/map.js"></script>
 
+    <script>
+        // When the user clicks on <div>, open the popup
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+    </script>
+
 </center>
 <footer>
     <p>This site was created as part of a group project for DPI-691: Programming and Data for Policymakers, a graduate course at the Harvard Kennedy School.</p>
@@ -116,3 +144,4 @@
 
 </body>
 </html>
+
