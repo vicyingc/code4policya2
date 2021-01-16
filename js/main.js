@@ -124,3 +124,15 @@ function myFunction() {
   popup.classList.toggle("show");
 }
 
+function mySecondFunction(){
+    var secondpopup = document.getElementById("myPopup1");
+    secondpopup.classList.toggle("show");
+}
+
+function myThirdFunction(){
+    var thirdpopup = document.getElementById("myPopup2");
+    thirdpopup.classList.toggle("show");
+}
+
+
+

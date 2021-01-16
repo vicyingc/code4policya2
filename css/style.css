@@ -311,3 +311,18 @@ element.style {
   to {opacity:1 ;}
 }
 
+#text1{
+    transform: translate(70%, -50%);
+}
+
+#row2{
+    transform: translate(70%, -50%);
+}
+
+#text2{
+    transform: translate(72%, -11%);
+}
+
+#row3{
+    transform: translate(70%, -50%);
+}
