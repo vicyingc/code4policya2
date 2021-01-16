@@ -43,6 +43,8 @@ function ShowInput(d){
     document.getElementById("heading").innerHTML =
         countryOutput[0].CountryName
 
+    // parse date
+
     document.getElementById("row1").innerHTML =
         countryOutput[0].Date
 
@@ -115,10 +117,10 @@ function ShowInput(d){
             "No data available"
     }}
 
-<script>
+
 // When the user clicks on <div>, open the popup
 function myFunction() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
 }
-</script>
+
