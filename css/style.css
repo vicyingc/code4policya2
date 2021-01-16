@@ -114,12 +114,6 @@ header nav{
 
 /* search box*/
 
-#search-container{
-    min-height: 200px;
-    text-align: center;
-    color: #2C3531;
-}
-
 .search-box{
     position: absolute;
     top: 50%;
@@ -160,11 +154,20 @@ header nav{
 }
 .search-box > .search-txt{
     width: 325px;
-    padding: 0 6px;
+    padding: 0 6px
 }
 .search-box > .search-btn{
     background:whitesmoke;
     color:black;
+}
+
+/*.search-box input[type="text"] {
+    position:absolute;*/
+    /*left:20%;
+    top:25%;
+    width:30%;
+    background-color:white;
+    color:grey;*/
 }
 
 .search-btn > i {
