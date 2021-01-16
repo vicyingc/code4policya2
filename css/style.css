@@ -176,6 +176,34 @@ header nav{
     padding-top: 70px;
 }
 
+/*table*/
+.container-table {
+    display: table;
+    width: 100%;
+}
+
+#main-table{
+    width: 100%;
+    /*border-collapse: separate; */
+    border-spacing: 1em;
+    border: 1px solid black;
+    table-layout: fixed;
+}
+
+#top-row-table{
+    background-color: pink;
+    vertical-align: text-bottom;
+}
+
+.table-body{
+    text-align: center;
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+}
+
 /*map*/
 #map_chart{
     position: absolute;
