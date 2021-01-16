@@ -123,7 +123,6 @@ function ShowInput(d){
             "No data available"
     }}
 
-
 // When the user clicks on <div>, open the popup
 function myFunction() {
   var popup = document.getElementById("myPopup");
@@ -140,5 +139,17 @@ function myThirdFunction(){
     thirdpopup.classList.toggle("show");
 }
 
+// Searchbar Enter Function
+var input = document.getElementById("country");
 
+// Execute a function when the user enters a key on the keyboard
+input.addEventListener("keyup", function(event) {
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Triggers this function linked to searchbar in HTML
+    document.getElementById("search-function").click();
+  }
+});
 
