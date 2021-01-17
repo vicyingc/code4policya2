@@ -2,29 +2,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content = "width=device-width">
-	<meta name="author" content = "code4policya2">
-	<title>Navigating the Pandemic</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content = "width=device-width">
+    <meta name="author" content = "code4policya2">
+    <title>Navigating the Pandemic</title>
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-	<!-- our CSS -->
-	<link rel = "stylesheet" href="css/style.css">
+    <!-- our CSS -->
+    <link rel = "stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
-	<div class = "contain">
-		<div id="brand">
-			<h1><a href="index.html">Navigating the Pandemic</a></h1>
-		</div>
-		<nav>
-			<ul>
-				<li><a href="our-page/index.html">About This Page</a></li>
-				<li><a href="our-team/index.html">About Us</a></li>
-			</ul>
-		</nav>
-	</div>
+    <div class = "contain">
+        <div id="brand">
+            <h1><a href="index.html">Navigating the Pandemic</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="our-page/index.html">About This Page</a></li>
+                <li><a href="our-team/index.html">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
 
@@ -59,9 +59,9 @@
 
 <!-- Sprint2 Table for Country Travel Information -->
 <div class="container-table">
-	<table id="main-table-header">
-		<tr id="top-row-table">
-			<!-- Top Row Headers -->
+    <table id="main-table-header">
+        <tr id="top-row-table">
+            <!-- Top Row Headers -->
             <th>🌍 Country Travel Info for </th>
             <th id="heading">📍[Search for Country] </th>
             <th id ="row1">📆 Last Updated</th>
@@ -76,33 +76,33 @@
     <table id="main-table">
         <tr id="top-row-table">
         <tr class="table-body">
-        	<!-- Three Column Headers for Key Questions/Information -->
-        	<th>🏡 Do I need to quarantine?</th>
-        	<th>🚄 Can I use public transportation?</th>
-        	<th>😷 Do I need to wear facial coverings?</th>	
+            <!-- Three Column Headers for Key Questions/Information -->
+            <th>🏡 Do I need to quarantine?</th>
+            <th>🚄 Can I use public transportation?</th>
+            <th>😷 Do I need to wear facial coverings?</th>  
         </tr>
 
         <tr class="table-body">
-        	<td><p id="quarantine"></p></td>
-        	<td><p id="public-transportation"></p></td>
-        	<td><p id="facial-coverings"></p></td>
+            <td><p id="quarantine"></p></td>
+            <td><p id="public-transportation"></p></td>
+            <td><p id="facial-coverings"></p></td>
         </tr>
 
         <tr class="table-body">
-        	<td><p id ="text1">Restriction Level (0 - 4):🔎</p><p id="row2"></p><!-- <span class="popuptext" id="myPopup">🚩More details<a href="our-page/index.html" target="_blank"> here</a></span> --></td>
-        	<td><p id ="text1">Restriction Level (0 - 2):🔎</p><p id="row3"></p><!-- <span class="popuptext" id="myPopup">🚩More details<a href="our-page/index.html" target="_blank"> here</a></span> --></td>
-        	<td><p id ="text1">Restriction Level (0 - 4):🔎</p><p id="row4"></p><!-- <span class="popuptext" id="myPopup">🚩More details<a href="our-page/index.html" target="_blank"> here</a></span> --></td>
+            <td><div class = "popup" onclick="myFunction()">Restriction Level (0 - 4):🔎<span class="popuptext" id="myPopup">🚩More details<a href="our-page/index.html" target="_blank"> here</a></span><p id="row2"></p><!--  --></div></td>
+            <td><div class="popup" onclick="mySecondFunction()">Restriction Level (0 - 2):🔎<span class="popuptext" id="myPopup1">🚩More details<a href="our-page/index.html" target="_blank"> here</a></span><p id="row3"></p><!--  --></div></td>
+            <td><div class="popup" onclick="myThirdFunction()">Restriction Level (0 - 4):🔎<span class="popuptext" id="myPopup2">🚩More details<a href="our-page/index.html" target="_blank"> here</a></span><p id="row4"></p><!--  --></div></td>
         </tr>
-	</table>
+    </table>
 </div>
 <div class="container-1"></div>
 
 <!-- Map of 'Where can I travel to right now?' -->
 <center>
 <div class = "float-child" id="map-chart">
-	<iframe title="Where can I travel to right now?" aria-label="Map" id="datawrapper-chart-ujNt2" src="https://datawrapper.dwcdn.net/ujNt2/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 80% !important; border: none;" height="440"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+    <iframe title="Where can I travel to right now?" aria-label="Map" id="datawrapper-chart-ujNt2" src="https://datawrapper.dwcdn.net/ujNt2/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 80% !important; border: none;" height="440"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
-	</div> 
+    </div> 
 
 
 <!-- d3 -->
@@ -114,7 +114,7 @@
 
 </center>
 <footer>
-	<p>This site was created as part of a group project for DPI-691: Programming and Data for Policymakers, a graduate course at the Harvard Kennedy School.</p>
+    <p>This site was created as part of a group project for DPI-691: Programming and Data for Policymakers, a graduate course at the Harvard Kennedy School.</p>
 </footer>
 
 </body>
