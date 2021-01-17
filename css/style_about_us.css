@@ -82,6 +82,10 @@ header nav{
     alignment: center;
     padding-bottom: 40px;
     padding-top: 40px;
+    border: solid 1px#e6e7e8;
+    padding: 30px 30px 30px 30px;
+    margin-bottom: 20px;
+    background-color: #e6e7e8;
 }
 
 /* Set additional styling options for the columns */
@@ -96,11 +100,11 @@ header nav{
 }
 
 .middle {
-    width: 15%;
+    width: 20%;
 }
 
 .right {
-    width: 55%;
+    width: 60%;
 }
 .last{
     width: 10%;
@@ -139,15 +143,22 @@ footer{
 .develop{
     float: center;
     alignment: center;  
-    padding-top: 90px;
+    padding-top: 70px;
 }
 
 .develop_1{
     float: left;
     alignment: center; 
-    text-align:justify; 
+    text-align:justify;
+    padding-top: 20px 
         
 }
+
+.develop_1_1{
+    float: left;
+    alignment: center;
+    text-align:justify;
+    padding-top: 35px;
 
 .linkicon{    
     float:right; 
