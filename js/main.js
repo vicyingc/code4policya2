@@ -46,13 +46,10 @@ function ShowInput(d){
     // parses date and reorders to display MM/DD/YYYY
 
     document.getElementById("row1").innerHTML =
-        (countryOutput[0].Date.substr(4,2)
+        ("as of " + countryOutput[0].Date.substr(4,2)
             + "/" + countryOutput[0].Date.substr(6,2) 
-            + "/" + countryOutput[0].Date.substr(0,4))
-
-    //in case I lose the original date output
-    //document.getElementById("row1").innerHTML =
-      //  countryOutput[0].Date
+            + "/" + countryOutput[0].Date.substr(0,4)
+            + ":")
 
     // defined three variables that contain the ordinal scale information of each column
     var quarantineInfo = document.getElementById("row2").innerHTML =
