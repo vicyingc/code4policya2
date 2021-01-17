@@ -114,7 +114,7 @@ function ShowInput(d){
             "You need to wear a mask in all public places, and when social distancing is not possible."
     }  else if (facialCoveringsInfo == 4){
         document.getElementById("facial-coverings").innerHTML =
-            "You have to wear a mask outside of your home, no matter what!"
+            "In some regions - or the entire country - you have to wear a mask outside of your home, no matter what!"
     }  else if (facialCoveringsInfo == ""){
         document.getElementById("facial-coverings").innerHTML =
             "No data available"
