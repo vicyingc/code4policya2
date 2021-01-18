@@ -9,7 +9,7 @@ let countryInput, countryOutput;
 
 
 // read in filtered dataset with the closest date
-d3.csv("OxCGRT_latest_onerowpercountry_01092021_0100.csv", (data) => {
+d3.csv("data/OxCGRT_latest_onerowpercountry_01092021_0100.csv", (data) => {
     // replace key strings with readable ones
     data['C8_quarantine'] = data['C8_International travel controls'];
     data['C5_publicTransport'] = data['C5_Close public transport'];
